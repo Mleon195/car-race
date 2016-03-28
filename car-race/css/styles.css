@@ -1,0 +1,48 @@
+/* styles.css */
+
+body {
+    text-align: center;
+}
+
+/* -------------------
+   CAR RACE
+   ------------------- */
+
+#racetrack {
+	background: url('../img/road.jpg') center left repeat-x;
+    height: 330px;
+    border-right: dashed 10px white;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+
+.car {
+    display: block;
+    position: relative;
+}
+
+#car1 { top: 30px; }
+#car2 { top: 120px; }
+
+
+
+input#reset {
+    background: #fc3;
+    color: #444;
+}
+
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
